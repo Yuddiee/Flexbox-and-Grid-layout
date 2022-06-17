@@ -80,5 +80,6 @@ button:hover{
     }
     body{
         padding: 10px;
+        flex-direction: column;
     }
 }
