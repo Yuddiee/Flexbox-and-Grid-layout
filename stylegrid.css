@@ -1,0 +1,20 @@
+.cont1 { grid-area: 1 / 1 / 3 / 5; background: #eb5020; }
+.cont2 { grid-area: 1 / 5 / 3 / 7; background: #fca201;}
+.cont3 { grid-area: 3 / 1 / 5 / 4; background: #05aa42;}
+.cont4 { grid-area: 3 / 4 / 4 / 7; background: #01aefd;}
+.cont5 { grid-area: 4 / 4 / 5 / 7; background: #01aefd;}
+
+.grid-container {
+  display: grid;
+  gap: 15px;
+  background-color: #06090c;
+  width: 700px;
+  padding-left: 70px;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-right: 200px;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  margin: auto;
+}
+

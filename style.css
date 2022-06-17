@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.bigbox {
+    width: 800px;
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.box button{
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    flex-grow: 1;
+}
+.A{
+    background: hsl(31, 77%, 52%);
+    padding: 40px;
+}
+.A button{
+    color: hsl(31, 77%, 52%);
+}
+
+.B{
+    background: hsl(184, 100%, 22%);
+    padding: 40px;
+}
+.B button{
+    color: hsl(184, 100%, 22%);
+}
+
+.C{
+    background: hsl(179, 100%, 13%);
+    padding: 40px;
+}
+.C button{
+    color: hsl(179, 100%, 13%);
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    cursor:pointer;
+
+}
+@media screen and (max-width:375px){
+    .bigbox{
+        flex-direction: column;
+    }
+    body{
+        padding: 10px;
+    }
+}
